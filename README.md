@@ -1,8 +1,13 @@
-open data for open lands
+AccessLand.org
 ==========================
 
-forked from shutthebackdoor
+This is the site for AccessLand.org. 
 
-- Run 'bundle install'
-- run 'jekyll serve --watch' in terminal
-- go to http://localhost:4000
+It was forked from shutthebackdoor.net, with some pretty minor changes.
+
+### Development
+- Run `bundle install`
+- Run `jekyll serve --watch` in terminal
+- Go to http://localhost:4000
+
+

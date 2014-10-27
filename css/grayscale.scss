@@ -15,7 +15,6 @@ body {
     font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: $light;
     background-color: $dark;
-    padding-top: 0px;
 }
 
 html {
@@ -23,7 +22,7 @@ html {
     height: 100%;
 }
 
-// Typhography
+// Typography
 
 h1,
 h2,
@@ -165,6 +164,13 @@ a:focus {
     display: table-cell;
     vertical-align: middle;
 }
+.more-logos {
+    background-color: #fff;
+    h1 {
+        color: #000;
+        text-align: center;
+    }
+}
 
 .brand-heading {
     font-size: 40px;
@@ -173,6 +179,15 @@ a:focus {
 .intro-text {
     font-size: 16px;
     margin-bottom: 30px;
+}
+
+#email {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#case-studies {
+    padding: 80px;
 }
 
 .email-btn {

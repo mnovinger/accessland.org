@@ -10,4 +10,4 @@ It was forked from shutthebackdoor.net, with some pretty minor changes.
 - Run `jekyll serve --watch` in terminal
 - Go to http://localhost:4000
 
-
+This is a GitHub Pages site - the active branch is `gh-pages`, not `master`. 

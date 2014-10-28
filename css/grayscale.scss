@@ -163,7 +163,7 @@ a:focus {
     width: 100%;
     height: auto;
     padding: 100px 0;
-    text-align: center;
+    text-align: left;
     color: $light;
     background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
     background-color: $dark;
@@ -179,6 +179,7 @@ a:focus {
 }
 
 #background {
+    text-align: left;
     background: url(../img/background-bg.jpg) no-repeat bottom center scroll;
 }
 
@@ -195,6 +196,7 @@ a:focus {
 }
 
 .brand-heading {
+    text-align: center;
     font-size: 40px;
 }
 
@@ -268,6 +270,10 @@ a:focus {
     outline: none;
     color: #000;
     background: rgba(40,195,171,1); // Same as $primary
+}
+
+.page-scroll {
+    text-align: center;
 }
 
 .page-scroll .btn-circle i.animated {

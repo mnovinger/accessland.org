@@ -213,6 +213,7 @@ a:focus {
 }
 
 .email-btn {
+    max-width: 400px;
     margin: 40px auto;
 }
 
@@ -643,4 +644,9 @@ section#footer {
 
 .footer-text {
     margin-top: 40px;
+}
+
+#footer input {
+    max-width: 400px;
+    margin: 0 auto;
 }

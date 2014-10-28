@@ -88,6 +88,11 @@ a:focus {
 
 .navbar-brand {
     font-weight: 700;
+    img {
+        max-width: 40px;
+        width: 40px;
+        margin-top: -5px;
+    }
 }
 
 .navbar-brand:focus {
@@ -601,4 +606,8 @@ section#footer {
 }
 .reset-message {
   text-align: center;
+}
+
+.footer-text {
+    margin-top: 40px;
 }

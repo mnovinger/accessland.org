@@ -469,8 +469,7 @@ section#call {
 }
 
 #tf-email-widget-container {
-    max-width: 500px;
-    margin: 0 auto;
+    margin: 20px 50px;
     .btn-huge {
         width: 100%;
     }
@@ -481,9 +480,15 @@ section#call {
     }
     blockquote {
         color: #fff;
+        text-align: left;
     }
 }
 
+@media(min-width:1200px) {
+    #tf-email-widget-container {
+        margin: 0px;
+    }
+}
 
 
 section#privacy {

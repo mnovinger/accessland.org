@@ -235,10 +235,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid $light;
+    border: 2px solid $primary;
     border-radius: 35px;
     font-size: 40px;
-    color: $light;
+    color: $primary;
     background: transparent;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -248,8 +248,8 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: none;
-    color: $light;
-    background: rgba(255,255,255,0.1);
+    color: #000;
+    background: rgba(40,195,171,1); // Same as $primary
 }
 
 .page-scroll .btn-circle i.animated {
@@ -344,12 +344,6 @@ a:focus {
     .logos img {
         max-width: 100%;
     }    
-}
-
-@media(min-width:992px) {
-    .logos img {
-        max-width: 200px;
-    }
 }
 
 #map {

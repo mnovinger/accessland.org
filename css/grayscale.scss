@@ -358,12 +358,6 @@ a:focus {
     -o-background-size: cover;
 }
 
-#press {
-    h2 {
-        text-align: center;
-    }
-}
-
 .logos, .press-logos {
     width: 100%;
     margin-top:60px;
@@ -382,6 +376,14 @@ a:focus {
 }
 
 #press {
+    h2 {
+        text-align: center;
+    }
+    a:hover,
+    a:focus {
+        text-decoration: none;
+        color: lighten($primary, 20%);
+    }
     img {
         max-width: 100%;
     }

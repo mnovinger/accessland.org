@@ -158,14 +158,58 @@ a:focus {
 
  // Full Page Image Intro Section
 
+
+
+@media (min-width:500px) {
+    .intro {
+        background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    }
+
+    #background {
+        background: url(../img/background-bg.jpg) no-repeat bottom center scroll;
+    }
+
+    #press {
+        background: url(../img/press-bg.jpg) no-repeat bottom center scroll;
+    }
+    .download-section {
+        background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    }
+}
+
+@media (max-width:500px) {
+    .intro {
+        background: url(../img/intro-bg-sm.jpg) no-repeat bottom center scroll;
+    }
+
+    #background {
+        background: url(../img/background-bg-sm.jpg) no-repeat bottom center scroll;
+    }
+
+    #press {
+        background: url(../img/press-bg-sm.jpg) no-repeat bottom center scroll;
+    }
+    .download-section {
+        background: url(../img/downloads-bg-sm.jpg) no-repeat center center scroll;
+    }
+}
+
+.download-section {
+    width: 100%;
+    padding: 50px 15px;
+    color: $light;
+}
+
  .intro, #background, #press {
     display: table;
     width: 100%;
     height: auto;
     padding: 100px 0;
-    text-align: left;
     color: $light;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    text-align: left;
+}
+    
+.intro, #background, #press, .download-section {
     background-color: $dark;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -178,23 +222,6 @@ a:focus {
     vertical-align: middle;
 }
 
-#background {
-    text-align: left;
-    background: url(../img/background-bg.jpg) no-repeat bottom center scroll;
-        -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-#press {
-    text-align: left;
-    background: url(../img/press-bg.jpg) no-repeat bottom center scroll;
-        -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 .more-logos {
     background-color: #fff;
     h1 {
@@ -346,17 +373,7 @@ a:focus {
     width: 100%;
 }
 
-.download-section {
-    width: 100%;
-    padding: 50px 15px;
-    color: $light;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: $dark;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
+
 
 .logos, .press-logos {
     width: 100%;

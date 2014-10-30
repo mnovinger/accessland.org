@@ -23,7 +23,7 @@ $(function() {
 /* ==========================================================================
    Social counts
    ==========================================================================*/
-var shareUrl = 'https://accessland.org';
+var shareUrl = 'http://accessland.org';
 $.ajax('https://d28jjwuneuxo3n.cloudfront.net/?networks=facebook,twitter,googleplus&url=' + shareUrl, {
     success: function(res, err) {
         $.each(res, function(network, value) {

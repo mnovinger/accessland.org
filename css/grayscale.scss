@@ -230,14 +230,22 @@ a:focus {
     }
 }
 
-.brand-heading {
-    text-align: center;
-    font-size: 40px;
-}
 
-.intro-text {
-    font-size: 16px;
-    margin-bottom: 30px;
+        section.intro {
+
+    .brand-heading {
+        text-align: center;
+        text-transform: none;
+        font-size: 48px;
+    }
+
+    
+
+    .intro-text {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
 }
 
 #email {
@@ -378,8 +386,8 @@ a:focus {
 
 .logos, .press-logos {
     width: 100%;
-    margin-top: 60px;
-    margin-bottom:40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     line-height: 3.1;
     text-align: center;
     a {

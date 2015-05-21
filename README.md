@@ -1,7 +1,7 @@
 AccessLand.org
 ==========================
 
-This is the site for AccessLand.org. 
+This is the site for AccessLand.org.
 
 It was forked from shutthebackdoor.net, with some pretty minor changes.
 
@@ -10,6 +10,6 @@ It was forked from shutthebackdoor.net, with some pretty minor changes.
 - Run `jekyll serve --watch` in terminal
 - Go to http://localhost:4000
 
-This is a GitHub Pages site - the active branch is `gh-pages`, not `master`. 
+This is a GitHub Pages site - the active branch is `gh-pages`, not `master`.
 
-All images are optimised for mobile, and javascript is minified. To do this, use the commands in the gulpfile. 
+All images are optimised for mobile, and javascript is minified. To do this, use the commands in the gulpfile.

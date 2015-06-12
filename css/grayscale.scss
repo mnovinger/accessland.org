@@ -196,7 +196,9 @@ a:focus {
 
 .download-section {
     width: 100%;
-    padding: 50px 15px;
+    padding: 100px 0px 10px 0px
+
+    ;
     color: $light;
 }
 
@@ -239,7 +241,7 @@ a:focus {
         font-size: 48px;
     }
 
-    
+
 
     .intro-text {
         text-align: center;
@@ -466,7 +468,7 @@ blockquote {
     }
 
     .download-section {
-        padding: 100px 0;
+        padding: 100px 0px 10px 0px;
     }
 
     #map {
